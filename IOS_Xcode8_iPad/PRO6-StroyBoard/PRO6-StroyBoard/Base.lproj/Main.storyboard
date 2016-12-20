@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xod-Sg-P8x">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller1-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" userLabel="View Controller1" customClass="ViewController" customModule="PRO6_StroyBoard" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kK8-Rn-4OR">
+                                <rect key="frame" x="62" y="158" width="197" height="32"/>
+                                <color key="backgroundColor" red="0.077298111255374571" green="0.82988782051282051" blue="0.25894298120355336" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next Page"/>
+                                <connections>
+                                    <segue destination="DSy-Sw-9lX" kind="show" id="jXx-2o-Vod"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kk9-eO-X7O">
+                                <rect key="frame" x="62" y="290" width="197" height="32"/>
+                                <color key="backgroundColor" red="0.60681040639999995" green="0.82988782049999998" blue="0.50027164150000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Go Page2 of Stroyboard"/>
+                                <connections>
+                                    <action selector="goPage2ofStroyboard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qUY-ZW-R1y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pl-P5-QI0">
+                                <rect key="frame" x="62" y="224" width="197" height="32"/>
+                                <color key="backgroundColor" red="0.60681040639999995" green="0.82988782049999998" blue="0.50027164150000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Go Page1 of Stroyboard"/>
+                                <connections>
+                                    <action selector="goPage1ofStroyboard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RKQ-jP-SEG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88704456851758007" green="0.90196079019999997" blue="0.80557517511398913" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gRO-55-sv2"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2032" y="350"/>
+        </scene>
+        <!--Item1-->
+        <scene sceneID="CFw-Lu-l2M">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0hc-M7-gtk" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item1" id="zNb-za-KiW"/>
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="m7W-88-ZI3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i0q-8Z-VNF">
+                        <rect key="frame" x="0.0" y="436" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="CFd-Nl-Rq2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HLr-Ac-TJq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1584" y="350"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="2Vh-te-6gG">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="xod-Sg-P8x" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="kDM-g5-2th">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="0hc-M7-gtk" kind="relationship" relationship="viewControllers" id="Rvp-fl-q57"/>
+                        <segue destination="MZy-n8-ijh" kind="relationship" relationship="viewControllers" id="Lrz-p3-D39"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="99L-Mn-FVg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1099" y="350"/>
+        </scene>
+        <!--Item2-->
+        <scene sceneID="Chn-1x-mFQ">
+            <objects>
+                <viewController id="MZy-n8-ijh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PRR-t7-bZE"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Qs-KG-2Ja"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aJJ-My-8bW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.88704456850000002" green="0.90196079019999997" blue="0.80557517509999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item2" id="fXb-jv-afj"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u9H-D9-ISR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1099" y="973"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="Lt3-7o-WfT">
+            <objects>
+                <viewController id="DSy-Sw-9lX" userLabel="View Controller2" customClass="ViewController2" customModule="PRO6_StroyBoard" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ayg-qg-ONs"/>
+                        <viewControllerLayoutGuide type="bottom" id="mtB-E7-OBO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qZ5-cY-N3a">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rcg-GF-UW8">
+                                <rect key="frame" x="62" y="224" width="197" height="32"/>
+                                <color key="backgroundColor" red="0.82988782049999998" green="0.70484329485113439" blue="0.46037485712228415" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next Page"/>
+                                <connections>
+                                    <action selector="nextPage:" destination="DSy-Sw-9lX" eventType="touchUpInside" id="ODo-dh-Ssg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88704456850000002" green="0.90196079019999997" blue="0.80557517509999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="uYD-N0-EKD"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <segue destination="EMP-vw-jFX" kind="show" identifier="segueToPage3" id="GOd-9q-IKb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Isy-eh-8PV" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2544" y="350"/>
+        </scene>
+        <!--View Controller3-->
+        <scene sceneID="53v-XC-TWg">
+            <objects>
+                <viewController id="EMP-vw-jFX" userLabel="View Controller3" customClass="ViewController3" customModule="PRO6_StroyBoard" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bCP-WC-ke3"/>
+                        <viewControllerLayoutGuide type="bottom" id="nPv-ND-ywZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="glC-k1-UOF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ek5-lY-0eN">
+                                <rect key="frame" x="66" y="229" width="189" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88704456850000002" green="0.90196079019999997" blue="0.80557517509999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Jym-SP-nka"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="nameLabel" destination="ek5-lY-0eN" id="8Zc-DT-XSA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cej-6U-XLQ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2966" y="350"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:PRO7-RES/PRO7-RES.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PRO6-StroyBoard/PRO6-StroyBoard.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PRO5/PRO5.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PRO4/PRO4.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PRO3/PRO3.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PRO2/PRO2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PRO/PRO.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PublicKeyProject/PublicKeyProject.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Synchronous-Asynchronous3/Synchronous-Asynchronous3.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Synchronous-Asynchronous2/Synchronous-Asynchronous2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Synchronous-Asynchronous/Synchronous-Asynchronous.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NetProject/NetProject.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DocumentProject/DocumentProject.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SingletonProject/SingletonProject.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CoreDataProject/CoreDataProject.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DocAndDataProject/DocAndDataProject.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AudioProject/AudioProject.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Media2Project/Media2Project.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MediaProject/MediaProject.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TableViewProject/TableViewProject.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MKMapViewProject/MKMapViewProject.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CommonControlProject/CommonControlProject.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:StroyboardCollectionVIewProject/StroyboardCollectionVIewProject.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:StoryboardProject2/StoryboardProject2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:StoryboardProject/StoryboardProject.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TabBarViewControllerProject/TabBarViewControllerProject.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NaviationViewControllerProject/NaviationViewControllerProject.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PageControlViewProject/PageControlViewProject.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DemoApp/DemoApp.xcodeproj">
+   </FileRef>
+</Workspace>
