@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding="UTF-8" ?>
+<workers>
+    <worker id='1'>
+        <name>Jerry</name>
+        <age>34</age>
+        <salary>10000</salary>
+    </worker>
+    <worker id='2'>
+        <name>Freya</name>
+        <age>2</age>
+        <salary>90000</salary>
+    </worker>
+</workers>
